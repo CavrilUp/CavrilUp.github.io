@@ -1286,3 +1286,6 @@ header label {
 .highlight .code .strong {
   font-weight: bold;
 }
+img {
+  max-width: 100%;
+}
