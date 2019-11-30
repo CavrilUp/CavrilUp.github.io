@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="Cavril's Blog">
+
+
+
+<title>Note | 归来的质押券  | Cavril&#39;s Area</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Cavril&#39;s Area</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Cavril&#39;s Area</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Note | 归来的质押券 </h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Cavril</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">十月 18, 2019&nbsp;&nbsp;21:53:03</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/Note/">Note</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="场内质押"><a href="#场内质押" class="headerlink" title="场内质押"></a>场内质押</h2><p>2018.4.24 上交所和中国结算【担保品管理服务】制定的关于三方回购的暂行方法【标准化交易双方自担风险】<br>债券质押式三方回购业务<br>正回购方将债券出质给逆回购方，作为担保，以融入资金<br>正回购方在约定的时间返回回购金额（资金和支付回购利息），同时解除债券质押</p>
+<h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><p>|1|签署主协议<br>|2|主协议签署后提交上交所备案<br>|3|开通三方回购的专用证券账户（正回购方），不得用于三方回购以外的用途<br>|4|投资者适当性备案<br>|5|授信（市场参与者可在交易系统众设置授信白名单），正回购方在逆回购方的白名单内，才能达成交易<br>|6|找到交易对手</p>
+<h2 id="担保品范围"><a href="#担保品范围" class="headerlink" title="担保品范围"></a>担保品范围</h2><p>上交所上市交易或者挂牌转让的债券，包括公开发行债券，非公开发现债券，资产支持债券（次级档不行）</p>
+<h2 id="债券的八个等级"><a href="#债券的八个等级" class="headerlink" title="债券的八个等级"></a>债券的八个等级</h2><p>类别                   阐释                          折扣率<br>利率债    政府债券（国家、地方、金融机构、政府支持）    0%<br>AAA（公）    公开发行评级AAA信用债                    3%<br>AA+（公）    公开发行评级AA+信用债                    8%<br>AA（公）        公开发行评级AA信用债                    15%<br>AAA（私）    非公开发行评级AAA信用债                 8%<br>AA+（私）    非公开发行评级AA+信用债                15%<br>AA    非公开发行评级AA信用债                         25%<br>其他    以上除外的挂牌交易或转让                        40%<br>Ps:通过资管计划买债——净资产（通过质押来的钱——总资产）</p>
+<p> 质押券担保价值=质押券的估值 <em>（质押券的数量</em>10[一手]）*（1-折扣率） 【中证指数有限公司】</p>
+<h3 id="选取质押债券按照如下原则-中国结算"><a href="#选取质押债券按照如下原则-中国结算" class="headerlink" title="选取质押债券按照如下原则-中国结算"></a>选取质押债券按照如下原则-中国结算</h3><p>（1）若双方自己制定则按此<br>（2）若未制定，则按篮子编号从小到大<br>（3）同一篮子则可按照数量由多到少</p>
+<h3 id="交易对手"><a href="#交易对手" class="headerlink" title="交易对手"></a>交易对手</h3><p>（1）双方都可向全市场提交报价申报（回购方向、金额、期限、利率、质押券篮子）【逆回购方选择白名单】<br>（2）询价申报（向交易对手发送询价申报）（回购方向、金额、期限、质押券篮子）<br>         确认报价（对象最多为5家交易对手，且符合授信白名单）<br>（3）制定对手方申报（一对一-白名单）<br>         协商一致后，正回购发起制定对手方申报，逆方确认<br>         可以填写交易补充约定<br>         质押登记、解押登记</p>
+<p>1.中国结算每日核算出质押券的担保价值，发送上交所，向双方展示<br>2.回购金额-担保价值/回购金额&gt;5%<br>3.逆回购方有权要要求正方补充，变更质押券或提供担保<br>4.上交、结算不担责，补充约定可直接进行处置，一个月后可直接拍卖、变卖<br>5.（场内交易）质押式回购、协议式回购（个性化，交易双方自担风险）【中央交易对手、匿名竞价】<br>6.债券评级的要求较高<br>7.标准化清算机构担保成交</p>
+
+        </div>
+
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/归来的质押券/"># 归来的质押券</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2019/10/23/Note-香港金融中心发展史/">Note | 香港金融中心发展史</a>
+            
+            
+            <a class="next" rel="next" href="/2019/10/16/Note-社融-M2/">Note | 社融&M2</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>Copyright © Cavril | Cavril&#39;s Area</span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="Cavril's Blog">
+
+
+
+<title>Note | 社融&amp;M2 | Cavril&#39;s Area</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Cavril&#39;s Area</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Cavril&#39;s Area</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Note | 社融&amp;M2</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Cavril</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">十月 16, 2019&nbsp;&nbsp;21:36:15</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/Note/">Note</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="社会融资规模（资产的运用）"><a href="#社会融资规模（资产的运用）" class="headerlink" title="社会融资规模（资产的运用）"></a>社会融资规模（资产的运用）</h2><h3 id="金融体系的资产，实体经济的负债"><a href="#金融体系的资产，实体经济的负债" class="headerlink" title="金融体系的资产，实体经济的负债"></a>金融体系的资产，实体经济的负债</h3><h2 id="M2（资金的来源）"><a href="#M2（资金的来源）" class="headerlink" title="M2（资金的来源）"></a>M2（资金的来源）</h2><h3 id="金融体系的负债，央行的资产，央行对国家的负债"><a href="#金融体系的负债，央行的资产，央行对国家的负债" class="headerlink" title="金融体系的负债，央行的资产，央行对国家的负债"></a>金融体系的负债，央行的资产，央行对国家的负债</h3><p>（1）金融机构表内贷款：人民币和外币贷款<br>（2）表外贷款：委托贷款、信托贷款、银行承兑汇票<br>（3）直接融资：企业债券和非金融企业境内股票融资<br>（4）其它：存款类金融机构资产支持证券、贷款核销、地方政府专项债券</p>
+<h2 id="商业银行资产质量维度"><a href="#商业银行资产质量维度" class="headerlink" title="商业银行资产质量维度"></a>商业银行资产质量维度</h2><h3 id="（三个基本指标：不良、拨备、覆盖）"><a href="#（三个基本指标：不良、拨备、覆盖）" class="headerlink" title="（三个基本指标：不良、拨备、覆盖）"></a>（三个基本指标：不良、拨备、覆盖）</h3><h3 id="五级贷款分类（正常、关注、次级、可疑、损失-）"><a href="#五级贷款分类（正常、关注、次级、可疑、损失-）" class="headerlink" title="五级贷款分类（正常、关注、次级、可疑、损失 ）"></a>五级贷款分类（正常、关注、次级、可疑、损失 ）</h3><p>（1）正常贷款率95%，关注类贷款，不良贷款率（次级类、可疑类、损失类）、逾期、重组<br>（2）贷款拨备率、拨备覆盖率<br>不良贷款率=贷款拨备率/拨备覆盖率<br>-贷款拨备率=贷款减值准备/各项贷款余额 监管标准2.5%<br>拨贷比=（一般准备金+特殊准备金+专项准备金）/各项贷款余额<br>贷款损失准备与各项贷款的比值<br>-拨备覆盖率=贷款减值准备/不良贷款 150%</p>
+<h2 id="商业银行资本维度"><a href="#商业银行资本维度" class="headerlink" title="商业银行资本维度"></a>商业银行资本维度</h2><h3 id="一级资本"><a href="#一级资本" class="headerlink" title="一级资本"></a>一级资本</h3><p>（核心资本占总资本50%）核心=实收资本、资本公积、盈余公积、一般风险准备金、未分配利润、少数股东资本可计入部分、其他-永续债、优先股等</p>
+<h3 id="二级资本（附属资本）"><a href="#二级资本（附属资本）" class="headerlink" title="二级资本（附属资本）"></a>二级资本（附属资本）</h3><p>包括：次级、二级资本债、混合资本工具、超额贷款损失准备、风险加权资产（信用 、市场、操作）<br>资本充足指标（资本充足率8%、一级资本充足率6%、核心一级资本充足率5%）</p>
+<h3 id="杠杆率：一级资本净额、调整后的表内外资产余额"><a href="#杠杆率：一级资本净额、调整后的表内外资产余额" class="headerlink" title="杠杆率：一级资本净额、调整后的表内外资产余额"></a>杠杆率：一级资本净额、调整后的表内外资产余额</h3><h2 id="商业银行流动性维度"><a href="#商业银行流动性维度" class="headerlink" title="商业银行流动性维度"></a>商业银行流动性维度</h2><h3 id="流动性覆盖率"><a href="#流动性覆盖率" class="headerlink" title="流动性覆盖率"></a>流动性覆盖率</h3><p>LCR Liquidity Coverage Ratio 优质流动性资产/未来30内的资金</p>
+<h3 id="净稳定资金比率"><a href="#净稳定资金比率" class="headerlink" title="净稳定资金比率"></a>净稳定资金比率</h3><p>NSFR Net Stable Funding Ratio 可用的稳定资产/所需的资金</p>
+<h3 id="流动性匹配率-加权资金来源-运用"><a href="#流动性匹配率-加权资金来源-运用" class="headerlink" title="流动性匹配率=加权资金来源/运用"></a>流动性匹配率=加权资金来源/运用</h3><h3 id="优质资产充足率-优质资产-短期现金净流出"><a href="#优质资产充足率-优质资产-短期现金净流出" class="headerlink" title="优质资产充足率=优质资产/短期现金净流出"></a>优质资产充足率=优质资产/短期现金净流出</h3><h3 id="流动性比例：流动性资产-流动性负债"><a href="#流动性比例：流动性资产-流动性负债" class="headerlink" title="流动性比例：流动性资产/流动性负债"></a>流动性比例：流动性资产/流动性负债</h3>
+        </div>
+
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/Note-社融-M2/"># Note | 社融&M2</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2019/10/18/Note-归来的质押券/">Note | 归来的质押券 </a>
+            
+            
+            <a class="next" rel="next" href="/2019/10/14/Note-央行【货币政策工具】/">Note | 央行【货币政策工具】</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>Copyright © Cavril | Cavril&#39;s Area</span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
